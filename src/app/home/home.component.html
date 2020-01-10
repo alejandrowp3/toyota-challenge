@@ -1,0 +1,14 @@
+<div class="searchContent">
+    <div class="form-group columnCenter">
+        <h3>News Analysis</h3>
+        <input type="text" name="inpSearch" id="inpSearch" [(ngModel)]="id" class="inpSearch form-control" placeholder="News ID">
+        <button class="btn btn-secondary" (click)="searchNews(sentiment,concepts,classification,entities,summarize)">Search</button>
+    </div>
+</div>
+<app-sentiment #sentiment [id]="id"></app-sentiment>
+<app-classification #classification [id]="id"></app-classification>
+<app-entities #entities [id]="id"></app-entities>
+<app-concepts #concepts [id]="id"></app-concepts>
+<app-summarize #summarize [id]="id"></app-summarize>
+
+

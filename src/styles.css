@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+.newContent{
+    padding: 0 2em 0 2em;
+}
+
+.newContent h3{
+    text-align: center;
+}

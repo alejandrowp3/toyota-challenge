@@ -1,0 +1,14 @@
+<div class="newContent" *ngIf="sentiment.id != undefined">
+    <h3>Sentiment</h3>
+    <h5>Polarity</h5>
+    <p>{{sentiment.polarity}}</p>
+    <h5>Subjectivity</h5>
+    <p>{{sentiment.subjectivity}}</p>
+    <h5>Description</h5>
+    <p>{{sentiment.text}}</p>
+    <h5>Polarity Confidence</h5>
+    <p>{{sentiment.polarity_confidence}}</p>
+    <h5>Subjectivity Confidence</h5>
+    <p>{{sentiment.subjectivity_confidence}}</p>
+    <hr>
+</div>
